@@ -1,0 +1,50 @@
+{
+  "app": {
+    "title": "Paleta",
+    "description": "Extract and generate color palettes from images"
+  },
+  "header": {
+    "title": "Paleta",
+    "description": "Extract and generate color palettes from images"
+  },
+  "upload": {
+    "button": "Choose image",
+    "placeholder": "Upload an image to get started",
+    "hint": "Drag and drop or click to choose",
+    "processing": "Processing image...",
+    "processingHint": "Extracting colors"
+  },
+  "colors": {
+    "extracted": "Extracted colors",
+    "generated": "Generated palette",
+    "total": "Total colors",
+    "base": "base",
+    "generatedCount": "generated",
+    "placeholder": "Generate a palette to see colors here"
+  },
+  "rings": {
+    "label": "Color rings",
+    "harmony": "Harmony mode"
+  },
+  "harmony": {
+    "complementary": "Complementary",
+    "analogous": "Analogous",
+    "triadic": "Triadic",
+    "tetradic": "Tetradic",
+    "splitComplementary": "Split complementary"
+  },
+  "export": {
+    "title": "Export palette",
+    "formats": {
+      "png": "PNG",
+      "json": "JSON",
+      "css": "CSS",
+      "svg": "SVG"
+    }
+  },
+  "footer": {
+    "license": "MIT License © 2025 Paleta Color",
+    "author": "Created by a colorblind person :)",
+    "github": "686f6c61"
+  }
+}
