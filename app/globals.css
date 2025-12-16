@@ -1,0 +1,59 @@
+/**
+ * Paleta Color - Color Palette Generator
+ * https://github.com/686f6c61/paleta-color
+ *
+ * Global Styles
+ * December 2025
+ *
+ * Global CSS including Tailwind directives and custom theme variables.
+ * Defines CSS custom properties for dark mode theming.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme color variables for light and dark modes */
+@layer base {
+  :root {
+    --background: #FFFFFF;
+    --foreground: #000000;
+    --border: #E5E7EB;
+    --muted: #6B7280;
+    --accent: #F3F4F6;
+  }
+
+  .dark {
+    --background: #0a0a0a;
+    --foreground: #FFFFFF;
+    --border: #27272a;
+    --muted: #a1a1aa;
+    --accent: #18181b;
+  }
+}
+
+body {
+  font-feature-settings: "rlig" 1, "calt" 1;
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E7EB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}

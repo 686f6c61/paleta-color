@@ -1,0 +1,50 @@
+{
+  "app": {
+    "title": "Paleta",
+    "description": "Extrae y genera paletas de colores desde imágenes"
+  },
+  "header": {
+    "title": "Paleta",
+    "description": "Extrae y genera paletas de colores desde imágenes"
+  },
+  "upload": {
+    "button": "Elegir imagen",
+    "placeholder": "Sube una imagen para comenzar",
+    "hint": "Arrastra y suelta o haz clic para elegir",
+    "processing": "Procesando imagen...",
+    "processingHint": "Extrayendo colores"
+  },
+  "colors": {
+    "extracted": "Colores extraídos",
+    "generated": "Paleta generada",
+    "total": "Total de colores",
+    "base": "base",
+    "generatedCount": "generados",
+    "placeholder": "Genera una paleta para ver colores aquí"
+  },
+  "rings": {
+    "label": "Anillos de color",
+    "harmony": "Modo de armonía"
+  },
+  "harmony": {
+    "complementary": "Complementario",
+    "analogous": "Análogo",
+    "triadic": "Triádico",
+    "tetradic": "Tetrádico",
+    "splitComplementary": "Split complementario"
+  },
+  "export": {
+    "title": "Exportar paleta",
+    "formats": {
+      "png": "PNG",
+      "json": "JSON",
+      "css": "CSS",
+      "svg": "SVG"
+    }
+  },
+  "footer": {
+    "license": "MIT License © 2025 Paleta Color",
+    "author": "Creado por un daltónico :)",
+    "github": "686f6c61"
+  }
+}

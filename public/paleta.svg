@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="white" stroke="#000" stroke-width="2"/>
+
+  <!-- Color dots arranged in a palette pattern -->
+  <!-- Top row -->
+  <circle cx="30" cy="30" r="8" fill="#FF6B6B"/>
+  <circle cx="50" cy="25" r="8" fill="#4ECDC4"/>
+  <circle cx="70" cy="30" r="8" fill="#FFE66D"/>
+
+  <!-- Middle row -->
+  <circle cx="25" cy="50" r="8" fill="#95E1D3"/>
+  <circle cx="50" cy="50" r="10" fill="#A8E6CF" stroke="#000" stroke-width="1.5"/>
+  <circle cx="75" cy="50" r="8" fill="#FF8B94"/>
+
+  <!-- Bottom row -->
+  <circle cx="30" cy="70" r="8" fill="#C7CEEA"/>
+  <circle cx="50" cy="75" r="8" fill="#FFDAC1"/>
+  <circle cx="70" cy="70" r="8" fill="#B5EAD7"/>
+</svg>
